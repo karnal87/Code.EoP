@@ -1,6 +1,6 @@
 # Code.EoP
 Elements of Programming Interview Problems/Notes
-* [5 Arrays](./5 - Arrays/00_header.md)
+* [5 Arrays](5 - Arrays/00_header.md)
 * 7 Strings
     * 7.1  Interconvert strings and integers
     * 7.2  Base conversion
