@@ -26,26 +26,44 @@
     - can be easier to **simulate the specification** than to solve for the general result; 
         * e.g., rather than writing a formula for an i-th entry in order, compute from beginning 
 # Know the libraries!
-    * syntax for instantiation:
-        ```python
-            l = [1]
-            l = [1,2,3]
-            l = [1] + [5] # [1,5]
-            l = [1] * 5   # [1,1,1,1,1]
-            l = list(range(5))   # [0,1,2,3,4]
-        ```
-    * checking if value is in array:
+* syntax for instantiation:
+    ```python
+    l = [1]
+    l = [1,2,3]
+    l = [1] + [5] # [1,5]
+    l = [1] * 5   # [1,1,1,1,1]
+    l = list(range(5))   # [0,1,2,3,4]
+    ```
+* checking if value is in array:
+    ```python
+    l = [1,2]
+    2 in l
+    ```
+* instantiate a 2-D array:
+    ``` python
+    l = [ [1,2], [3,4] ]
+    l = [ [1]. [5] ]
+    ```
+* understand how copy works
+```python
+A = [1,2]
+B = A
+C = list(A)
+```
 
-        ```python
-
-
-        ```
-    * instantiate a 2-D array:
-
-        ``` python
-            l = [ [1,2], [3,4] ]
-            l = [ [1]. [5] ]
-        ```
+* key list methods
+    ```python
+    # TODO:
+    ```
+* slicing
+    ```python
+    ```
+* list comprehensions
+    ```python
+    [ x**2 for x in range(10) if x % 2 == 0] # create a list of the first 5 even square numbers
+    ```
 # 5 Arrays
 ## 5.1 [The Dutch nationl flag problem](./01_dutch_national_flag.py)
 ## 5.2 [Increment an Arbitrary-Precision Integered](./02_increment_number.py)
+## 5.3 [Multiply two arbitrary-precision integers](./03_multiply_number.py)
+## 5.4 [Advancing through an array](./04_advance_array.py)
