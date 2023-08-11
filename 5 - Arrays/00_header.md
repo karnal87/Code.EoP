@@ -63,7 +63,7 @@ C = list(A)
     [ x**2 for x in range(10) if x % 2 == 0] # create a list of the first 5 even square numbers
     ```
 # 5 Arrays
-## 5.1 [The Dutch nationl flag problem](./01_dutch_national_flag.py)
+## 5.1 [The Dutch national flag problem](./01_dutch_national_flag.py)
 ## 5.2 [Increment an Arbitrary-Precision Integered](./02_increment_number.py)
 ## 5.3 [Multiply two arbitrary-precision integers](./03_multiply_number.py)
 ## 5.4 [Advancing through an array](./04_advance_array.py)
@@ -75,10 +75,12 @@ C = list(A)
 ## 5.10 [Permute the elements of an array](./10_permute_elements.py)
 ## 5.11 [Compute the next permutation](./11_compute_next_permutation.py)
 ## 5.12 [Sample offline data](./12_sample_offline_data.py)
+    - Variant: The rand() function in the standard C library retums a uniformly random number in [0, RAND_MAX - 1]. Does rand() mod n generate a number uniformly distributed in [0, n - 1]?
 ## 5.13 [Sample online data](./13_sample_online_data.py)
 ## 5.14 [Compute a random permutation](./14_compute_a_random_permutation.py)
 ## 5.15 [Compute a random subset](./15_compute_a_random_subset.py)
 ## 5.16 [Generate nonuniform random numbers](./16_generate_non_uniform_random_numbers.py)
+    * Given a random number generator that produces values in [0,1] uniformly, how would you generate a value X from T according to a continuous probability distribution, such as the exponential distribution?
 ## 5.17 [The Sudoku checker problem](./17_sudoku_checker.py)
 ## 5.18 [Compute the spiral ordering of a 2D array](./18_compute_spiral_ordering_of_2d_array.py)
 ## 5.19 [Rotate a 2D array](./19_rotate_2d_array.py)
