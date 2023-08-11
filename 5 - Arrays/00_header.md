@@ -64,7 +64,19 @@ C = list(A)
     ```
 # 5 Arrays
 ## 5.1 [The Dutch national flag problem](./01_dutch_national_flag.py)
-## 5.2 [Increment an Arbitrary-Precision Integered](./02_increment_number.py)
+    * time: O(n) space: O(1)
+        - ideal solution: maintain 4 sub-arrays within input array; in relation to pivot
+            * less than
+            * equal to
+            * unclassified
+            * greater than
+        - all elements start out as unclassified; iterate through elements, moving into either bottom, middle, or top ( $<, ==, >$ )
+### Variants
+#### Given array of n object with keys that take one of four values, re-order the array so that all objects that have the same key appear together.
+#### Given an array A of n objects with Boolean-valued keys, reorder the array so that objects that have the same key appear together. O(1) space and O(n) time
+#### Given an array A of n objects with Boolean-valued keys, reorder the array so that objects that have the key false appear first. The relative ordering of objects with key true should not change. Use O(1) s, O(n) t.
+
+## 5.2 [Increment an Arbitrary-Precision Integer](./02_increment_number.py)
 ## 5.3 [Multiply two arbitrary-precision integers](./03_multiply_number.py)
 ## 5.4 [Advancing through an array](./04_advance_array.py)
 ## 5.5 [Delete duplicates from sorted arrays](./05_delete_dupes.py)
@@ -75,7 +87,7 @@ C = list(A)
 ## 5.10 [Permute the elements of an array](./10_permute_elements.py)
 ## 5.11 [Compute the next permutation](./11_compute_next_permutation.py)
 ## 5.12 [Sample offline data](./12_sample_offline_data.py)
-    - Variant: The rand() function in the standard C library retums a uniformly random number in [0, RAND_MAX - 1]. Does rand() mod n generate a number uniformly distributed in [0, n - 1]?
+    - Variant: The rand() function in the standard C library returns a uniformly random number in [0, RAND_MAX - 1]. Does rand() mod n generate a number uniformly distributed in [0, n - 1]?
 ## 5.13 [Sample online data](./13_sample_online_data.py)
 ## 5.14 [Compute a random permutation](./14_compute_a_random_permutation.py)
 ## 5.15 [Compute a random subset](./15_compute_a_random_subset.py)
