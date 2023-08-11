@@ -83,5 +83,17 @@ C = list(A)
     * Given a random number generator that produces values in [0,1] uniformly, how would you generate a value X from T according to a continuous probability distribution, such as the exponential distribution?
 ## 5.17 [The Sudoku checker problem](./17_sudoku_checker.py)
 ## 5.18 [Compute the spiral ordering of a 2D array](./18_compute_spiral_ordering_of_2d_array.py)
+    * Given a sequence of integers P, computer a 2D array A whose spiral order is P. (Assume the size of P is $n^2$ 
+      for some integer n.)
+    * Write a program to enumerate the first *n* pairs of integers ($a$,$b$) in spiral order, starting from
+        (0,0) followed by (1,0). For example, if n = 10, your output should be (0,0), (1,0), (1,-1),
+        (-1,0),(-1,1),(0,1),(0,1),(1,1),(2,1)
+    * Compute the spiral order for an m x m 2D array A.
+    * Compute the last element in spiral order for an m x m 2D array A in O(1) time.
+    * Compute the kth element in spiral order for an m x n 2D array i O(1) time.
 ## 5.19 [Rotate a 2D array](./19_rotate_2d_array.py)
+    * Implement an algorithm to reflect A, assumed to be an n x n 2D array, about the horizontal axis of symmetry.
+      Repeat the same for reflections about the vertical axis, the diagonal from top-left to bottom-right, and the 
+      diagonal from top-right to bottom-left.
 ## 5.20 [Compute rows in Pascals Triangle](./20_compute_rows_in_pascals_triangle.py)
+    * Compute the nth row of Pascal's triangle using O(n) space
